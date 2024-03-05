@@ -1,9 +1,10 @@
 .box{
-    
+    background-image:url(https://www.thetravelcurrent.com/sites/default/files/field/image/article-banner-cover_32.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100%;
     width: 100%;
     border: 1px;
-    background-color: bisque;
-    
     text-align: center;
 }
 
@@ -11,13 +12,73 @@ body {
     padding: 0;
     margin: 0;
     width: 100%;
+    background-color: rgb(104, 180, 210);
 }
 
-#myh1 {
-
-}
-h1{
+.box h1{
     display: inline-flex;
-    padding:5px;
-    background-color: bisque;
+    padding:1px;
+}
+
+.box hr{
+    border: none;
+    margin: 0;
+    height: 2px;
+    color:black;
+    background-color: black;
+}
+
+.pfp img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 300;
+    width: 180px;
+    border-radius: 45%;
+}
+.pfp hr{
+    border: none;
+    margin: 5px;
+    height: 2px;
+    color:black;
+    background-color: black;
+}
+
+.Resume{
+    font-size: 30px;
+    color: black;
+    margin-left: 5%;
+    padding: 3%;
+    box-shadow: 10px 10px;
+    border-radius: 20%;
+    background-color: brown;
+    text-decoration: none;
+}
+
+.Resume:hover{
+    background-color: rgb(31, 173, 192);
+}
+
+.Resume:visited{
+    text-decoration: none;
+}
+
+.Resume:link{
+    text-decoration: none;
+}
+
+.LinkedIn{
+    font-size: 30px;
+    margin-right: 5%;
+    color: black;
+    padding: 3%;
+    box-shadow: 10px 10px;
+    border-radius: 20%;
+    background-color: brown;
+    text-decoration: none;
+}
+
+.LinkedIn:hover{
+    background-color: rgb(31, 173, 192);
 }
